@@ -3,7 +3,7 @@ cd `dirname $0`
 cdir=${PWD}
 
 git clone https://github.com/Nobu19800/EducatorVehicle
-cd RaspberryPiMouseRTC
+cd EducatorVehicle
 cmake .
 make
 
@@ -12,6 +12,6 @@ make
 cd ${cdir}
 
 git clone https://github.com/Nobu19800/ControlEducatorVehicle
-cd RaspberryPiMouseController_Joystick
+cd ControlEducatorVehicle
 cmake .
 make
